@@ -1,0 +1,15 @@
+#Makebot is the YAEL compiler
+
+>YAEL 1< #Preprocessor directive specifying the version of YAEL and Makebot
+
+makebot init #starts Makebot
+
+makebot collect test.yael #adds files to be compiled
+makebot collect files.list #you can also use .list files which have a list of YAEL files
+makebot cache main.cache #this creates a .cache file from all the staged files
+#caches are optional files that can be read by Makebot
+makebot make main.cach as programName #compiles the program
+
+makebot stop #stops Makebot
+
+

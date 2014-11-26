@@ -1,0 +1,13 @@
+DESTITUTE,
+    ~test #this var must stay empty
+    ~opinion
+    dali agrees with test #sets dalis opinion on test to AGREES WITH, AKA true
+    #dali is technically a var that is inserted by the compiler at the begging of the file
+
+    ||| dali agrees with test,
+        why would you say "TRUE"
+  
+     |,
+        why would you say "FALSE"
+
+WEALTHY
